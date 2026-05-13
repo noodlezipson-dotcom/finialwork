@@ -1,19 +1,21 @@
-# 🎈 Blank app template
+# 🎬 Movie Quote Finder with AI Search
 
-A simple Streamlit app template for you to modify!
+一个结合本地数据库和AI智能搜索的电影台词查找应用，支持联网获取最新电影信息。
 
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://blank-app-template.streamlit.app/)
+## ✨ 功能特点
 
-### How to run it on your own machine
+- **🤖 AI智能搜索**：使用百度文心一言API进行自然语言搜索
+- **🔍 本地数据库**：内置经典电影台词数据库
+- **🌐 联网搜索**：可启用联网获取最新信息
+- **⭐ 收藏功能**：保存喜欢的搜索结果
+- **📊 数据分析**：可视化展示电影台词数据
+- **📱 响应式设计**：适配桌面和移动设备
 
-1. Install the requirements
+## 🚀 快速开始
 
-   ```
-   $ pip install -r requirements.txt
-   ```
+### 本地运行
 
-2. Run the app
-
-   ```
-   $ streamlit run streamlit_app.py
-   ```
+1. 克隆仓库：
+```bash
+git clone https://github.com/your-username/movie-quote-finder-ai.git
+cd movie-quote-finder-ai
