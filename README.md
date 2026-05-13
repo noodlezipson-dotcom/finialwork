@@ -1,21 +1,23 @@
-# 🎬 Movie Quote Finder with AI Search
+# 🎨 Random Image Generator
 
-一个结合本地数据库和AI智能搜索的电影台词查找应用，支持联网获取最新电影信息。
+A simple and elegant random image generator built with Streamlit. Generate random images from Lorem Picsum and Unsplash sources with customizable categories and sizes.
 
-## ✨ 功能特点
+## ✨ Features
 
-- **🤖 AI智能搜索**：使用百度文心一言API进行自然语言搜索
-- **🔍 本地数据库**：内置经典电影台词数据库
-- **🌐 联网搜索**：可启用联网获取最新信息
-- **⭐ 收藏功能**：保存喜欢的搜索结果
-- **📊 数据分析**：可视化展示电影台词数据
-- **📱 响应式设计**：适配桌面和移动设备
+- **🎲 Random Generation**: Generate random images with one click
+- **🏷️ Category Selection**: Choose from nature, people, technology, animals, architecture, art, or any
+- **📏 Customizable Sizes**: Set custom width and height (100-1920px)
+- **🔢 Fixed Seed**: Use fixed seed values for reproducible images (Picsum)
+- **📜 History Tracking**: Keep track of recently generated images
+- **📥 Download Support**: Save generated images to your device
+- **📋 Copy URL**: Copy image URLs for external use
+- **🎨 Two Image Sources**: Lorem Picsum (simple) and Unsplash (high-quality photos)
 
-## 🚀 快速开始
+## 🚀 Quick Start
 
-### 本地运行
+### Local Installation
 
-1. 克隆仓库：
+1. Clone the repository:
 ```bash
-git clone https://github.com/your-username/movie-quote-finder-ai.git
-cd movie-quote-finder-ai
+git clone https://github.com/your-username/random-image-generator.git
+cd random-image-generator
